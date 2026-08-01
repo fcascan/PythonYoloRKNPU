@@ -528,6 +528,16 @@ occur — a realistic fit for evaluating weapon detection.
   (https://www.youtube.com/watch?v=apxdeD32kAk)
 - **benchmark2.mp4** — *Surveillance video: Boy robs gas station, fires shot*
   (https://www.youtube.com/watch?v=y-QXYbd4Zb0)
+- **benchmark3.mp4** — *Watch Unfazed Cashier Keep His Cool During Terrifying Gunpoint Robbery*
+  (https://www.youtube.com/watch?v=Xrp4nvop8Ng)
+
+Technical characteristics of each clip (verified with OpenCV):
+
+| File | Resolution | Frame rate | Frames (decodable) | Duration |
+|---|---|---|---|---|
+| `benchmark.mp4` | 638×360 | 15.00 fps | 375 | 0:25 |
+| `benchmark2.mp4` | 1280×720 | 29.97 fps | 640 | 0:21 |
+| `benchmark3.mp4` | 1280×720 | 29.97 fps | 2020 | 1:07 |
 
 > These clips are © their respective YouTube creators and are **NOT** covered by this project's
 > AGPL-3.0 license; they are bundled only for reproducible benchmarking/research. Point
